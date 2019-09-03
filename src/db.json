@@ -1,11 +1,27 @@
-
+{
+   "login":[{
+   	 "user":"abc@gmail.com",
+   	 "password":"1234567",
+   	 "applicationid":"aaaa-bbbb-cccc-dddd"
+   },
   {
-      "posts": [
-          { "id": 1, "title": "json-server", "author": "typicode" }
-            ],
-              "comments": [
-                  { "id": 1, "body": "some comment", "postId": 1 }
-                    ],
-                      "profile": { "name": "typicode" }
-                      }
-  }
+   	 "user":"sahilsharma@gmail.com",
+   	 "password":"1qgjk567",
+   	 "applicationid":"dddd-eeee-ffff-gggg"
+   },
+   {
+   	 "user":"abc@gmail.com",
+   	 "password":"1234567",
+   	 "applicationid":"hhhh-iiii-jjjj-kkkk"
+   },
+   {
+   	 "user":"abc@gmail.com",
+   	 "password":"1234567",
+   	 "applicationid":"llll-mmmm-nnnn-oooo"
+   },
+   {
+   	 "user":"abc@gmail.com",
+   	 "password":"1234567",
+   	 "applicationid":"pppp-qqqq-rrrr-ssss"
+   }] 
+}
