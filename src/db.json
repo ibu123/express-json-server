@@ -1,5 +1,6 @@
 {
-   "login":[{
+   "login":[
+   {
    	 "user":"abc@gmail.com",
    	 "password":"1234567",
    	 "applicationid":"aaaa-bbbb-cccc-dddd"
@@ -23,5 +24,6 @@
    	 "user":"abc@gmail.com",
    	 "password":"1234567",
    	 "applicationid":"pppp-qqqq-rrrr-ssss"
-   }] 
+   }
+   ] 
 }
