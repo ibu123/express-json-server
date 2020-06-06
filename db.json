@@ -1,0 +1,40 @@
+{
+   "logins":[
+   {
+   	 "id":1,
+     "user":"abc@gmail.com",
+   	 "password":"1234567",
+   	 "applicationid":{
+            "id":"aaaa-bbbb-cccc-dddd",
+            "appname":4567852
+        }
+   },
+  {
+     "id":2,
+   	 "user":"sahilsharma@gmail.com",
+   	 "password":"1qgjk567",
+   	 "applicationid":"dddd-eeee-ffff-gggg"
+   },
+   {
+     "id":3,  
+   	 "user":"abc@gmail.com",
+   	 "password":"1234567",
+   	 "applicationid":"hhhh-iiii-jjjj-kkkk"
+   },
+   {
+     "id":4,
+   	 "user":"abc@gmail.com",
+   	 "password":"1234567",
+   	 "applicationid":"llll-mmmm-nnnn-oooo"
+   },
+   {
+     "id":5,
+   	 "user":"abc@gmail.com",
+   	 "password":"1234567",
+   	 "applicationid":"pppp-qqqq-rrrr-ssss"
+   }
+   ] ,
+    "isadmin": [
+    { "id": 1, "bool": true , "loginId": 1 }
+  ]
+}

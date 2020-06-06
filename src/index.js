@@ -1,9 +1,17 @@
-var http = require("http");
+var jsonServer = require('json-server');
 
-//create a server object:
-http
-  .createServer(function(req, res) {
-    res.write("Hello World!"); //write a response to the client
-    res.end(); //end the response
-  })
-  .listen(8080); //the server object listens on port 8080
+// Returns an Express server
+var server = jsonServer.create();
+
+// Set default middlewares (logger, static, cors and no-cache)
+server.use(jsonServer.defaults());
+
+// Add custom routes
+// server.get('/custom', function (req, res) { res.json({ msg: 'hello' }) })
+
+// Returns an Express router
+var router = jsonServer.router('db.json');
+
+server.use(router);
+
+server.listen(3000);
